@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <H1>HELLO</H1>
+    <script>
+        // Object is collection of data or variables In JS
+         const Student = {
+               FullName : "Sameer Bhandari" ,
+               age : 22 ,
+               Gpa : 4.8 ,
+               isPass : true ,
+               college : "Sagarmatha"
+
+             
+         } ;
+
+         console.log(Student);
+
+         //TWO TYPES OF ACCESSING OBJ
+        // OBJECT NAME . Value
+       console.log(Student.FullName) ;
+       console.log(Student.college) ;
+
+       //
+       console.log(Student["FullName"]) ;
+       console.log(Student["college"]) ;
+ 
+       // Changing the Content
+       Student["age"] = Student["age"] +1 ;
+       Student["FullName"] = Student["FullName"] + " " + "ARP" ;
+       console.log(Student);
+      
+
+
+       console.log("NEW CONTENT") ;
+    </script>
+
+  
+</body>
+
+
+
+<script>
+    // EXAMPLE OF OBJECT AND CREATING CHANGES AFTER BEING ASSIGNED 
+    // THE DETAILS ABOUT MINE ARE STORED IN A OBJECT NAMED DETAILS 
+
+    const details = {
+         myName : "Sameer " ,
+         myAge : 20 ,
+         myHobbies : "Football,Travelling,Spending times with friends and family." ,
+         myAddress : "Kirtipur" ,
+         mySocialMedia : "Instagram , Facebook " ,
+         myJerseyNumber : 10 
+    } ;
+     
+    console.log(details) ;
+
+    //Acessing The objects from different Methods
+    console.log(details.myName +"ARP "+ details.myJerseyNumber);
+
+    console.log(details["myHobbies"] +" "+"My social media "+ details["mySocialMedia"]) ;  
+    
+    //UPDATING THE CONTENT
+
+    details["myAge"]  = details["myAge"] + 1 ;
+    console.log(details.myAge) ;
+ 
+    details["myHobbies"]  = details["myHobbies"] + " " + "Watching Movies. ";
+    console.log(details.myHobbies) ;
+
+    console.log(details);
+
+    console.log ("NOW SOLVING THE QUES GIVEN IN THE VIDEO") ;
+
+    // Create an Const Object called Product and store the Value or data :
+
+    const Product = {
+        pName : "Ball Pen" ,
+        pRating : 4.5 ,
+        pDealOfTheDay : true ,
+        pDiscount : "50%" ,
+        pPrice : "Rs.25"
+    };
+
+    console.log(Product);
+    console.log("ANOTHER EXAMPLE");
+
+
+    // STORING THE INFORMATION OF A PROFILE
+     
+    const Profile ={
+        Name : "Sameer Bhandari",
+        isVerified : true ,
+        isFollowed : true ,
+        totalPost : 10 ,
+        followers : '2.2m',
+        following : 2 ,
+        details : "Enterpreneur" + " " 
+        + "Footballer | Worldcup Winner | 8 ballon d'Or " 
+
+    };
+    console.log(Profile);
+
+
+const info ={
+    Name : "Manchester United",
+    history : "Champions ",
+    Established : " 1965",
+    game : " Legend ",
+    ground : "old trafford" + " " + "strafred end ",
+
+};
+
+console.log(info);
+
+console.log(info.Name);
+console.log(info["history"]);
+
+(info["game"]) = (info["game"]) + " + " +  "The best team in the world " +   "Most trophy" ;
+console.log(info["game"]);
+
+console.log(info.game + " Best best " + " is " + info.Name) ;
+
+</script>
+
+
+
+
+
+</html>
