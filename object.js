@@ -13,7 +13,7 @@ const details = {
 console.log(details);
 console.log(details["Name"] + details["Caste"]);
 
-//another way usimg dot 
+//another way using dot 
 console.log(details.Age);
 console.log(details.Name + details.Caste);
 

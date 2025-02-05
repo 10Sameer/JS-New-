@@ -127,6 +127,21 @@ console.log(info["game"]);
 
 console.log(info.game + " Best best " + " is " + info.Name) ;
 
+
+{
+    let char = prompt("Enter a character: ");  // Take user input
+    
+    if (char.length === 1) {  // Ensure only a single character is entered
+        if ("aeiouAEIOU".includes(char)) {
+           alert("Vowel");
+        } else {
+            alert("Not Vowel");
+        }
+    } else {
+        alert("Please enter only one character.");
+    }
+    }
+
 </script>
 
 
