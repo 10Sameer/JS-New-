@@ -56,7 +56,7 @@ while (i <= 5){
     let num = 50;
     while (i <= num){
         if(i % 2 === 0){
-            console.log("The even numbers are",i );
+            console.log("The even numbers are", i );
         }
         i ++;
     }
