@@ -25,6 +25,35 @@
 {
     let str = "hello";
     let a = "Classmate";
-    console.log(str.replace("h","y") , str.replace("o","i"));
+    console.log(str.replace("he","y") , str.replace("o","i"));
     console.log(`C is removed by b ${a.replace("C","b")} and ${a.replace("s","y")}`)
+}
+
+{
+    let a = "Hello" ;
+    let b= "Hellolololo" ;
+    console.log(a.replace("lo","p"))
+    //only replace the first lo and donit touch the second value
+    // replace all method replace all the lo in the code
+    console.log(b.replace("lo","p"))
+    console.log(b.replaceAll("lo","p"))
+}
+// str.cahrAt(index) used to find the letter that resides at a particular place 
+{
+    let str = "Sameer";
+    console.log(str.charAt(0));
+    console.log(str.charAt(1));
+    console.log(str.charAt(2));
+    console.log(str.charAt(3));
+    console.log(str.charAt(4));
+    console.log(str.charAt(5));
+    console.log(str.charAt(6));
+
+    // another method 
+    {
+        let a = "Hero";
+        console.log(a [0] , a[1] , a [2] , a [3]) ;
+        console.log(a [0] + a[1] + a [2] + a [3]) ;
+        console.log(a.replace("H","S"));
+    }
 }
