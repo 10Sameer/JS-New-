@@ -42,6 +42,8 @@
     {
         let a ="SameerBhandari";
         console.log(a.slice(2,4));
+        console.log(a.slice(2));
     }
     console.log(a.slice(0,4));
 }
+
