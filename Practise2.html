@@ -1,0 +1,18 @@
+ 
+ <script>
+    // Generate prompt the user to enter their full name.Generate a username based on the input.Start username with @ ,followed by thier entered name and ending with the fullname length> -->
+    {
+        let fullName = prompt("Enter your full name");
+        let userName = `@${fullName}${fullName.length}`;
+        alert(userName);
+    }
+    
+   // Generate prompt the user to enter their full name.Generate a username based on the input.Start username with @ ,followed by thier entered name and ending with the random number 
+   
+    {
+        let fullName1 = prompt("Enter your full name");
+        let id =  Math.floor(Math.random() * 900) + 100;
+        let userName1 = `@${fullName1}${id}`;
+        alert(userName);
+    }
+ </script>
