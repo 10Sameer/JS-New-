@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // TO check whether the user Id password is correct or not it yes give access if not reject
+         {
+            let id = prompt("Enter user name");
+            let password=prompt("Enter Your password");
+             if(id === "Sameer" && password === "Hero"){
+                alert(`${id} You are boss welcome.... `);
+            }else{
+                alert(`${id} You are not our boss Get lost.... `);
+            }
+        } 
+
+
+        // TO take name from users and add @ and Their lenght in last
+        {
+            let userName =prompt("Enter your name");
+            let output = `@${userName}${userName.length}`;
+            alert(output);
+        }
+    </script>
+</body>
+</html>
