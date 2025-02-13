@@ -33,12 +33,12 @@
     let a = "Hello" ;
     let b= "Hellolololo" ;
     console.log(a.replace("lo","p"))
-    //only replace the first lo and donit touch the second value
+    //only replace the first lo and donot touch the second value
     // replace all method replace all the lo in the code
     console.log(b.replace("lo","p"))
     console.log(b.replaceAll("lo","p"))
 }
-// str.cahrAt(index) used to find the letter that resides at a particular place 
+// str.charAt(index) used to find the letter that resides at a particular place 
 {
     let str = "Sameer";
     console.log(str.charAt(0));
