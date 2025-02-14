@@ -25,3 +25,14 @@ for (let a of str){
     }
     console.log("The Total length of string is", length);
 }
+// another example 
+{
+    let name = "ImamLearningJScodingForFrontendandBackendItsisfuntolearnJS";
+    let letterCount = 0 ;
+    for (let letter of name){
+        console.log("The letter are",letter);
+        letterCount ++ ;
+        console.log(letterCount)
+    }
+    console.log(`The total letter are ${letterCount}`);
+}

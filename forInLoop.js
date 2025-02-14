@@ -35,3 +35,19 @@
         console.log("Key = ", key +" ", "Values :", value[key]);
      }
 }
+
+//
+{
+  let marks = {
+    std1 : 99 ,
+    std2 : 98 ,
+    std3 : 90 ,
+    std4 : 92 ,
+    std5 : 95 ,
+    std6 : 97 ,
+    std7 : 91 ,
+  };
+  for (let key in marks){
+    console.log(`The marks of ${key} is ${marks[key]}`)
+  }
+}
