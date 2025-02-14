@@ -16,3 +16,22 @@
         console.log(marks[i])
     }
 }
+console.log("FINISHED FOR LOOP")
+
+// another most used way is Forof loop 
+// for (let a of arrayname)
+
+{
+    let heroes =['IronMan','SpiderMan','DeltaMan','DrStrange','Thor','CaptainAmerica','BatMan'];
+    for(let hero of heroes) // can use any variable ot name instead of a
+    console.log(hero);
+}
+
+// Printing cities using ForOFloop 
+{
+    let cities =['ktm','Pokhara','Butwal','Pharping','Kirtipur','Balkhu','Teku','Kalanki','kalimati'];
+    for (let city of cities){
+        console.log(`The beautiful cities of Nepal are ${city}`); //${city.toUpperCase()} for tempelate uppercase
+        console.log(`The beautiful cities of Nepal are `+ "" + city.toUpperCase());
+    }
+}

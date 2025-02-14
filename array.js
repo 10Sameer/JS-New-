@@ -29,3 +29,4 @@
     console.log('the marks 100 is changed to 99.5 and marks 90 is changed to 94.5')
     console.log(marks[0] , marks[1] ); // the marks 100 is changed to 99.5 and marks 90 is changed to 94.5
 }
+
