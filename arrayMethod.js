@@ -57,3 +57,15 @@ num.push(10);
     let bestTeam = sagarMatha.concat(barca,manU);
     console.log(bestTeam.toString())
 }
+
+
+// unshift is used to add new value on front
+// while shift is used to del to value of front
+{
+    let manU = ['Degea','licha','Cr7','deligt','Harry'];
+     manU.unshift("sameer");// sameer is added in front
+     console.log(manU);  
+    let sagarMatha = ['xyz','abc','Sameer','Kc','Rawal','ojha','Tamang','chaudary','Ambani','Praj']
+     sagarMatha.shift();// xyz is removed
+     console.log(sagarMatha)
+}
