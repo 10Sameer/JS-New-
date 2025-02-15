@@ -26,5 +26,29 @@
 }
     
 
+//To calculate 10% off on every item.change the array to store final price after applying offer 
+// price are 250 645 300 900 50
+{
+    let item = [250, 645, 300 ,900 ,50];
+    let i = 0 ;
+    for(let val of item){
+        console.log(`The values at index ${i}= ${val}`);
+         let offer = val / 10 ;
+         item[i] -= offer ;
+         console.log(`The final price after discount is ${item[i]}`);
+         i ++;
+    }
+}
+console.log('finished')
+console.log('finished')
 
-
+// using for loop
+{
+    let item = [250, 645, 300 ,900 ,50];
+    for (let i = 0 ; i <item.length ; i++ ){
+        let offer = item[i] / 10;
+        console.log(`The values at index are ${item[i]}`);
+        item[i] -= offer ;
+        console.log(`The final price after discount is ${item[i]}`);
+    }
+}
