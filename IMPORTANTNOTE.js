@@ -114,5 +114,40 @@ ___________________________________++++++++++++++++++++++++++++++++_____________
     console.log("After using pop to remove new cars on last ==  " + car.toString()); // zyx cba will be removed at last
 }
 
+____________________________+++++++++++++++++++++++++++_____________________________________________+++++++++++++++++++++++++++
+ 6. slice() Method 
+ --------- slice(0,5)
+ starts scanning from 0 to 5 index and then delete the,remove the elements from choosen 5th index 
+ this method is used to remove the data in array by using the indexes 
+ if we use the slice (3,8)
+ all the value from 0 to 2 are deleted and from exactly form 8 to remaining index 
+
+  //FOR EXAMPLE
+ {
+    let fruits = ["Apple", "Banana", "Orange", "Mango", "Grapes", "Pineapple", "Strawberry", "Watermelon", "Peach", "Cherry"];
+    console.log(`The list of fruits == ${fruits.toString()}`);
+    console.log(`The list of selected fruits from index (3,8) === ${fruits.slice(3,8).toString()}`); 
+}
+
+{
+    let num = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000] ;
+    console.log(`The list of numbers === ${num.toString()}`);
+    console.log(`The list of selected Numbers from index (1,6) === ${num.slice(1,6).toString()}`); 
+}
+
+__________________________+++++++++++++++++++++++++++++++++++++++++++++++++++++___________________+++++++++++++++++++++++++++++++
+  7. splice(..,..,..)
+splice to del remove in original value
+// splice (startidx , del , newElements)
+//        ( the index you want to work on , the index that you want to del if you select 3 then 3 index from starting index will be deleted , to update index can update by any no.of element or by null)
+// FOREXAMPLE
+
+{
+    let num = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000] ;
+    console.log(`The list of selected Numbers from index (1,6) === ${num.splice(2,4,1200,1500,1600).toString()}`); 
+    console.log(`The list of selected Numbers from index (1,6) === ${num.toString()}`); 
+}
+
 
 */
+
