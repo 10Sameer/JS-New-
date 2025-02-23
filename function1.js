@@ -20,3 +20,35 @@ function functionName(){
  functionName();
  functionName();
  functionName();
+
+
+ // Function using parameters and arguments 
+  function Name(msg){
+    console.log(msg)
+  }
+  Name("Im Sameer Bhandari");
+  Name("Im Sameer Bhandari learning JS");
+
+
+  // function for calculating sum of two numbers 
+  function sum(a,b){
+    console.log(`The sum of two number is = ${a+b}`);
+  }
+   sum(5,50);
+   sum(5,10);
+   sum(10,10);
+
+
+   // using return statement in function
+   {
+   function add (a , b ,c){
+    console.log("Before Returning");
+    return a+b+c;
+   }
+   console.log("First Method");
+   console.log(add(10,20,30)); 
+
+    console.log("Second Method");
+    let sum = add (10,20,30);
+    console.log(sum);
+ }
