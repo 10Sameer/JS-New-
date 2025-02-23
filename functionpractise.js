@@ -12,3 +12,15 @@
   console.log(greet("Cutie"));
   console.log(greet());
  }
+
+ // finding
+ {
+    function number (num){
+        if (num % 2 == 0){
+            return "Even";
+        }else
+        return "Odd";
+    }
+    console.log(`10 is ${number(10)}`);  
+    console.log(`7 is ${number(7)}`);  
+ }
