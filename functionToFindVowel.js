@@ -43,5 +43,21 @@
         findConsonant("aaaaaaaaaaaaaas");   
     }
     
-    
 
+// _________________+++++++++++++++++++++++++++++_________________________________________
+    const findConsonant = (str) => {
+        let count = 0;
+        const vowels = "aeiou"; 
+        for (let i = 0; i < str.length; i++) {
+            const char = str[i].toLowerCase(); 
+            if (char >= "a" && char <= "z" && !vowels.includes(char)) {
+                count++;
+            }
+        }
+        console.log(`The total number of consonants in the string is ${count}`);
+    };
+    
+    // Test cases
+    findConsonant("Sameer Bhandari"); 
+    findConsonant("aaaaaaaaaaaaaas"); 
+    
