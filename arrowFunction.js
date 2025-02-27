@@ -20,7 +20,24 @@
 
 
 //{ name: "John", age: 25 }? 
-const details = (name, age )=> {
+     const details = (name, age )=>
+     {
     return(`Hello!!! My name is ${name} and age is ${age}`);
-}
- console.log(details("John", 25));
+    }
+     console.log(details("John", 25));
+
+ // basic example of arrow function with no parameter
+ {
+    const  printHello = () => {
+        console.log("Hello");
+        return ("Hey using Return");
+    }
+    printHello();       
+    printHello();       
+    printHello();       
+    printHello();       
+    console.log(printHello());       
+    console.log(printHello());       
+    console.log(printHello());       
+        
+ }
