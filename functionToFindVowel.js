@@ -13,3 +13,17 @@
     findVowel("Hello World");   
 }
 
+//
+{ 
+    const findVowel = (vowel) => {
+        let count = 0 ;
+        for (let i = 0 ; i <= vowel.length ; i ++ ){
+            if ( aieou . includes (vowel[i])){
+                count++;
+            }
+        }
+        console.log(`The total number of vowels in the string is ${count}`);
+    }
+}
+findVowel("Sameer Bhandari");
+    findVowel("Hello World"); 
