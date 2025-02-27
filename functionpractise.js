@@ -24,3 +24,12 @@
     console.log(`10 is ${number(10)}`);  
     console.log(`7 is ${number(7)}`);  
  }
+
+//+++++++++++++________________________+++++++++++++++++++++
+ {
+    function myName (firstName, lastName){
+        return (`The firstName is ${firstName} and lastName is ${lastName}`);
+    }
+     console.log(myName("Sameer ","Bhandari"));
+     console.log(myName("Cutie ","Hero"));
+ }
