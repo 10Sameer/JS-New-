@@ -27,3 +27,26 @@
     console.log(doubleNum(40));
     console.log(doubleNum(50));
 }
+
+//Write an arrow function getLength(str) that returns the length of a given string.
+{
+    const lengthOfString = (str) => {
+       return (`The length of the ${str} is ${str.length} `) ;
+    }
+    console.log(lengthOfString("Sameer Bhandari"));
+    console.log(lengthOfString("Hello World"));
+    console.log(lengthOfString("Hello World??!"));
+    
+}
+
+//Write an arrow function isPositive(num) that checks if a number is positive.
+    {
+        const isPositive = (num) =>{
+            if (num > 0){
+                return (`The ${num} is positive number`);
+            }
+            return (`The ${num} is negative number`);
+        }
+        console.log(isPositive(10));
+        console.log(isPositive(-11));
+    }
