@@ -69,11 +69,64 @@
  }
 
  // Create a function square(num) that returns the square of a number.
- {
-    function square (num ){
-          return (`The square of number is ${num} = ${num *num} `)
+    {
+        function square (num ){
+            return (`The square of number is ${num} = ${num *num} `)
+        }
+        console.log(square(10));
+        console.log(square(20));
+        console.log(square(5848645845484445450));
     }
-    console.log(square(10));
-    console.log(square(20));
-    console.log(square(5848645845484445450));
- }
+
+ //Write a function getMax(a, b) that returns the maximum of two numbers.
+    {
+        function getMax(a,b){
+            if(a > b){
+                return (`${a} is greater than ${b}`);
+            }
+            return (`${b} is greater than ${a}`);
+        }
+        console.log(getMax(100,20));
+        console.log(getMax(10,20));
+    }
+
+    //Write a function reverseString(str) that takes a string and returns the reversed version.
+    {
+        function reverseString(str){
+            return str.split("").reverse().join("");
+        }
+        console.log(reverseString("Sameer Bhandari"));
+    }
+
+ // pop and push method 
+    {
+        function pushMethod (num =[100,200,300,400,500,600],... newNumber){
+            num.push( ... newNumber);
+            return (`The final array is ${num}`);
+        }
+        console.log(pushMethod([100,200,300,400,500,600],700,800));
+
+    }
+
+ // another Method 
+    {
+        function pushMethod ( ... newName){
+            let name =["Sameer","Bhandari","is","a"];
+            name.push(...newName).toString();
+            return (`The final array is ${name}`);
+        }
+        console.log(pushMethod("hero","of","the","BhandariGaun"));
+     }
+
+//popMethod
+    {
+        let num=[100,200,300,400,500,600,700,800];
+        function popMethod(remove){
+        
+            num.pop(remove)
+            return num.join(", ");        
+        }
+        console.log(popMethod());
+        console.log(popMethod());
+        console.log(popMethod());
+    }
