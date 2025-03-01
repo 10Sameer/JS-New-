@@ -50,3 +50,50 @@
         console.log(isPositive(10));
         console.log(isPositive(-11));
     }
+
+    //Write an arrow function multiply(a, b) that returns the product of two numbers.
+    {
+        const multiply = (a,b) => {
+            return (`The product of ${a} * ${b} = ${a*b}`);
+        }
+        console.log(multiply(10,10));
+        console.log(multiply(10,20));       
+        console.log(multiply(2,2));       
+    }
+
+    // finding Vowels 
+    {
+        const findVowel = (vowel) => 
+        {
+            let vowelCount = 0 ; 
+            for ( let i = 0 ; i <= vowel.length ; i++)
+            {
+                if ( "aeiouAEIOU".includes(vowel[i]))
+                {
+                    vowelCount++;
+                }
+            }
+            return(`The total number of vowels in the string is ${vowelCount}`);
+        }
+        console.log(findVowel("Sameer Bhandari"));
+        console.log(findVowel("Hello World"));
+        console.log(findVowel("aaaaaAAA"));
+        
+    }
+
+    //finding Consonants
+    {
+        const findConsonant = (str) => {
+            let consonantCount = 0;
+            for (let i = 0 ; i < str.length ; i++){
+                if(!"aeiouAEIOU".includes(str[i])){
+                    consonantCount ++ ;
+                }
+            }
+            return(`The total number of consonants in the string is ${consonantCount}`);
+
+        }
+        console.log(findConsonant("Sameer Bhandari"));
+        console.log(findConsonant("Hello World"));
+        console.log(findConsonant("aaaAAAc"));
+    }
